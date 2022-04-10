@@ -1,22 +1,21 @@
 import React from 'react';
-import useFirebase from '../../hooks/useFirebase';
+import './Register.css'
 
-const Login = () => {
-    const { signInWithGoogle } = useFirebase();
+const Register = () => {
     return (
         <div>
-            <h2>LogIn Please!!</h2>
+            <h2>Please Register Now.</h2>
             <form action="">
+                <input type="text" placeholder='your name' />
+                <br />
                 <input type="email" placeholder='Email' />
                 <br />
                 <input type="password" placeholder='password' />
                 <br />
-                <button>Login</button>
-                <button onClick={signInWithGoogle}>sign-in google</button>
+                <button>Register</button>
             </form>
-
         </div>
     );
 };
 
-export default Login;
+export default Register;

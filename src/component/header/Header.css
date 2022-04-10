@@ -1,0 +1,14 @@
+.header nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.header nav a:hover {
+    color: darkorange;
+    font-weight: 500;
+
+}
